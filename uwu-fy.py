@@ -120,7 +120,7 @@ font_path = resource_path("soda_cream.otf")
 root.tk.call("font", "create", "MyCustomFont", "-family", font_path, "-weight", "normal")
 
 # Use the custom font
-soda_cream = tkFont.Font(family = "SodaCream", size = 16)
+soda_cream = tkFont.Font(family = "SodaCream", size = 18)
 
 # Load GIF frames using Pillow
 gif_file = resource_path("march.gif")
@@ -179,4 +179,3 @@ animation()
 
 # Run
 root.mainloop()
-
